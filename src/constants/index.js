@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
     {
         imgPath: "/images/seo.png",
-        title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
+        title: "Frontend Expertise",
+        desc: "Building responsive, user-friendly interfaces with ReactJS, TypeScript, and modern UI libraries.",
     },
     {
         imgPath: "/images/chat.png",
-        title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        title: "Real-World Projects",
+        desc: "Led impactful projects like AI-based helmet violation detection and an AI mock interview platform.",
     },
     {
         imgPath: "/images/time.png",
-        title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        title: "Growth Mindset",
+        desc: "Always eager to learn and improve through real-world challenges and continuous feedback.",
     },
 ];
 
