@@ -91,25 +91,25 @@ const abilities = [
 
 const techStackImgs = [
     {
-        name: "React Developer",
-        imgPath: "/images/logos/react.png",
+        name: "Figma Designer",
+        imgPath: "/images/logos/figma.png",
     },
-    {
-        name: "Python Developer",
-        imgPath: "/images/logos/python.svg",
-    },
-    {
-        name: "Backend Developer",
-        imgPath: "/images/logos/node.png",
-    },
-    {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
-    },
-    {
-        name: "Project Manager",
-        imgPath: "/images/logos/git.svg",
-    },
+    // {
+    //     name: "Python Developer",
+    //     imgPath: "/images/logos/python.svg",
+    // },
+    // {
+    //     name: "Backend Developer",
+    //     imgPath: "/images/logos/node.png",
+    // },
+    // {
+    //     name: "Interactive Developer",
+    //     imgPath: "/images/logos/three.png",
+    // },
+    // {
+    //     name: "Project Manager",
+    //     imgPath: "/images/logos/git.svg",
+    // },
 ];
 
 const techStackIcons = [
@@ -119,12 +119,12 @@ const techStackIcons = [
         scale: 1,
         rotation: [0, 0, 0],
     },
-    {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
-    },
+    // {
+    //     name: "Python Developer",
+    //     modelPath: "/models/python-transformed.glb",
+    //     scale: 0.8,
+    //     rotation: [0, 0, 0],
+    // },
     {
         name: "Backend Developer",
         modelPath: "/models/node-transformed.glb",
@@ -146,40 +146,41 @@ const techStackIcons = [
 ];
 
 const expCards = [
+
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        review: "Kien brought structure and clarity to the graduation project, combining strong UI development with real-time data integration and thoughtful UX design.",
+        imgPath: "/images/exp_fpt.png",
+        logoPath: "/images/logo_fpt.png",
+        title: "Graduation Project – Helmet Violation Detection",
+        date: "December 2024 – May 2025",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Designed and built a real-time helmet violation detection interface using ReactTS.",
+            "Implemented camera streaming, bounding box rendering, and violation data visualization.",
+            "Connected frontend with AI detection output and automated notification systems.",
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        review: "Kien’s side project showed creativity and user empathy. His AI-powered interview app was well-structured and responsive, with good use of modern libraries.",
+        imgPath: "/images/exp_fpt.png",
+        logoPath: "/images/logo_fpt.png",
+        title: "Personal Project – AI Interview Assistant",
+        date: "March 2025 – April 2025",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Developed an interactive AI interview platform using ReactTS and Vapi.",
+            "Integrated voice input/output and tailored interview question generation.",
+            "Collected user feedback and improved UI using Shad UI components..",
         ],
     },
     {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+        review: "Kien demonstrated great ownership and speed during his internship. He consistently delivered quality UI components while actively collaborating with backend teams and designers.",
+        imgPath: "/images/exp_fpt_software.png",
+        logoPath: "/images/logo_fpt_software.png",
+        title: "Intern Frontend Developer",
+        date: "January 2024 - May 2024",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Developed responsive UI components using ReactJS and TailwindCSS mixed with Kibana Elastic search to apply chart on view.",
+            "Integrated RESTful APIs with frontend modules to ensure seamless data flows.",
+            "Participated in daily standups, code reviews, and sprint planning in an Agile environment.",
         ],
     },
 ];
